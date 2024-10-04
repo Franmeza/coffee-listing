@@ -2,7 +2,7 @@ import Card from "./Card";
 
 function Cards({ coffeeList }) {
   return (
-    <div className="flex flex-wrap gap-x-8 gap-y-10 justify-center items-center ">
+    <div className="flex flex-wrap gap-x-8 gap-y-10 justify-center items-center mb-6">
       {coffeeList.map((coffe) => (
         <Card
           key={coffe.id}

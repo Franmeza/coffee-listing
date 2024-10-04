@@ -5,7 +5,7 @@ import vector from "../assets/vector.svg";
 
 function Container({ coffeeList, filter }) {
   return (
-    <main className="text-[#FEF7EE] flex flex-col justify-center items-center bg-[#1B1D1F] sm:max-w-[420px] md:max-w-[1080px]  p-6  -mt-[150px] gap-5  mx-auto mb-32 rounded-xl">
+    <main className="text-[#FEF7EE] flex flex-col justify-center items-center bg-[#1B1D1F] sm:max-w-[420px] md:max-w-[1080px]  p-6 -mt-[150px] gap-5  mx-auto mb-32 rounded-xl">
       <img
         className="absolute top-20 left-1/2 -translate-x-6  -translate-y-1/2 mt-5 mx-auto"
         src={vector}
